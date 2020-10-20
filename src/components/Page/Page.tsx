@@ -12,10 +12,6 @@ const Page: FunctionComponent = ({ children }) => {
 			>
 				{children}
 			</main>
-
-			<footer className="Page__footer">
-				<p>Follow me on <a href="https://twitter.com/bakkerjoeri">twitter</a>, check out my code on <a href="https://github.com/bakkerjoeri/">GitHub</a>.</p>
-			</footer>
 		</div>
 	);
 }

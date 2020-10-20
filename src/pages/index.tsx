@@ -14,12 +14,14 @@ export default function Home() {
 			</h1>
 
 			<p>
-				I work as a front-end developer at <a href="https://decorrespondent.nl">De Correspondent</a> and its English counterpart, <a href="https://thecorrespondent.com">The Correspondent</a>.
+				I'm working as a front-end developer at <a href="https://decorrespondent.nl">De Correspondent</a> and its English counterpart, <a href="https://thecorrespondent.com">The Correspondent</a>.
 			</p>
 
 			<p>
-				I also make games, which you can find on <a href="https://bakkerjoeri.itch.io/">itch.io</a>.
+				I also like to make games, some of which I actually finish and release. You can find them on <a href="https://bakkerjoeri.itch.io/">itch.io</a>.
 			</p>
+
+			<p>Follow me on <a href="https://twitter.com/bakkerjoeri">twitter</a>, check out my code on <a href="https://github.com/bakkerjoeri/">GitHub</a>.</p>
 		</Page>
 	)
 }
