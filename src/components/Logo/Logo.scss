@@ -1,0 +1,10 @@
+.Logo {
+	color: inherit;
+	text-decoration: none;
+
+	&:hover,
+	&:focus {
+		color: var(--color-accent-bright);
+		text-decoration: underline;
+	}
+}

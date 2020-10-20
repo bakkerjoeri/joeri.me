@@ -1,0 +1,18 @@
+@import "./reset.scss";
+
+:root {
+	--color-accent-bright: #D90077
+}
+
+p {
+	margin-bottom: 1.45em;
+}
+
+a {
+	color: inherit;
+
+	&:hover,
+	&:focus {
+		color: var(--color-accent-bright)
+	}
+}
