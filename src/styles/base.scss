@@ -4,15 +4,16 @@
 	--color-accent-bright: #D90077
 }
 
+h1 {
+	font-size: 22px;
+	font-family: sans-serif;
+	margin-bottom: 0.9em;
+}
+
 p {
 	margin-bottom: 1.45em;
 }
 
 a {
-	color: inherit;
-
-	&:hover,
-	&:focus {
-		color: var(--color-accent-bright)
-	}
+	color: var(--color-accent-bright)
 }

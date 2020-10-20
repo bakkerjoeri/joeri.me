@@ -1,15 +1,11 @@
 import React, { FunctionComponent } from "react";
 import Logo from "../Logo/Logo";
-import MainNavigation from "../MainNavigation/MainNavigation";
+import { Helmet } from "react-helmet";
 import "./Page.scss";
 
 const Page: FunctionComponent = ({ children }) => {
 	return (
 		<div className="Page">
-			<header className="Page__header">
-				<Logo />
-			</header>
-
 			<main
 				className="Page__main"
 				id="main"
