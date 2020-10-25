@@ -1,19 +1,10 @@
 import { Link } from "gatsby";
 import React, { FunctionComponent } from "react";
+import { PostData } from "../../types/PostData";
 import "./PostList.scss";
 
-interface Post {
-	id: string;
-	frontmatter: {
-		slug: string;
-		title: string;
-		date: string;
-	},
-	html: any;
-}
-
 interface PostListProps {
-	posts: Post[];
+	posts: PostData[];
 };
 
 const PostList: FunctionComponent<PostListProps> = ({ posts }) => {
