@@ -1,6 +1,6 @@
 ---
 slug: "/thoughts/over-the-garden-wall"
-date: "2020-10-21"
+date: "2020-10-25"
 title: "October's ultimate comfort watch: Over the Garden Wall"
 tags: ["recommendation", "show", "spooky"]
 author: "Joeri Bakker"
