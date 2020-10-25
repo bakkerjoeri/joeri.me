@@ -1,12 +1,23 @@
-import React from "react";
+import { graphql } from "gatsby";
+import React, { FunctionComponent } from "react";
 import { Helmet } from "react-helmet";
 import Page from "./../components/Page/Page";
 
-export default function Home() {
+interface HomeProps {
+	data: {
+		site: {
+			siteMetadata: {
+				title: string;
+			}
+		}
+	}
+}
+
+const Home: FunctionComponent<HomeProps> = ({ data }) => {
 	return (
 		<Page>
 			<Helmet>
-				<title>Joeri</title>
+				<title>{data.site.siteMetadata.title}</title>
 			</Helmet>
 
 			<h1>
@@ -14,7 +25,7 @@ export default function Home() {
 			</h1>
 
 			<p>
-				I'm working as a front-end developer at <a href="https://decorrespondent.nl">De Correspondent</a> and its English counterpart, <a href="https://thecorrespondent.com">The Correspondent</a>.
+				I'm a frontend developer, currently working at <a href="https://decorrespondent.nl" className="no-break">De Correspondent</a> and its English counterpart, <a href="https://thecorrespondent.com" className="no-break">The Correspondent</a>.
 			</p>
 
 			<p>
@@ -24,4 +35,16 @@ export default function Home() {
 			<p>Follow me on <a href="https://twitter.com/bakkerjoeri">twitter</a>, check out my code on <a href="https://github.com/bakkerjoeri/">GitHub</a>.</p>
 		</Page>
 	)
-}
+};
+
+export default Home
+
+export const query = graphql`
+	query HomeQuery {
+		site {
+			siteMetadata {
+				title
+			}
+		}
+	}
+`;

@@ -7,14 +7,8 @@ const MainNavigation: FunctionComponent = () => {
 		<nav className="MainNavigation">
 			<ul className="MainNavigation__menuItems">
 				<li className="MainNavigation__menuItem">
-					<Link className="MainNavigation__link" to="/things">
-						Things
-					</Link>
-				</li>
-
-				<li>
 					<Link className="MainNavigation__link" to="/thoughts">
-						Thoughts
+						thoughts
 					</Link>
 				</li>
 			</ul>

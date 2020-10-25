@@ -4,9 +4,9 @@ import "./Logo.scss";
 
 const Logo: FunctionComponent = () => {
 	return (
-		<div className="Logo">
+		<Link className="Logo" to="/">
 			Joeri
-		</div>
+		</Link>
 	)
 }
 
