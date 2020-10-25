@@ -2,7 +2,6 @@ import { graphql } from "gatsby";
 import React, { FunctionComponent } from "react";
 import { Helmet } from "react-helmet";
 import PostList from "../components/PostList/PostList";
-import Post from "../templates/Post/post";
 import Page from "./../components/Page/Page";
 
 interface Post {
