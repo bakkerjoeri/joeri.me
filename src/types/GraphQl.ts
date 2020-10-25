@@ -18,9 +18,13 @@ export interface RemarkData<FrontMatter> {
 	};
 };
 
-export interface PostFrontMatter {
-	date: string;
-	slug: string;
-	title: string;
-	tags: string[];
+export interface Post {
+	id: string;
+	frontmatter: {
+		date: string;
+		slug: string;
+		title: string;
+		tags: string[];
+	};
+	html: any;
 }

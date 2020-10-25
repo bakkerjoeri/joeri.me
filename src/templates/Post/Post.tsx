@@ -3,10 +3,11 @@ import { graphql } from "gatsby";
 import { Helmet } from "react-helmet";
 import Page from "../../components/Page/Page";
 import "./Post.scss";
-import type { GraphQl, PostFrontMatter, RemarkData, SiteData } from "../../types/GraphQl";
+import type { GraphQl, SiteData } from "../../types/GraphQl";
+import type { PostData } from "../../types/PostData";
 
 interface PostProps extends GraphQl<
-	RemarkData<PostFrontMatter> &
+	{ markdownRemark: PostData; } &
 	SiteData
 > {}
 
