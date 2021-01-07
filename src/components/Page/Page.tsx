@@ -1,6 +1,5 @@
 import React, { FunctionComponent } from "react";
 import Logo from "../Logo/Logo";
-import MainNavigation from "../MainNavigation/MainNavigation";
 import "./Page.scss";
 
 interface PageProps {
@@ -18,7 +17,6 @@ const Page: FunctionComponent<PageProps> = ({ children, className }) => {
 		<div className={className}>
 			<header className="Page__header">
 				<Logo />
-				<MainNavigation/>
 			</header>
 
 			<main
