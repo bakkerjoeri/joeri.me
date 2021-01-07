@@ -25,11 +25,11 @@ const Home: FunctionComponent<HomeProps> = ({ data }) => {
 			</h1>
 
 			<p>
-				I'm a frontend developer, currently working at <a href="https://decorrespondent.nl" className="no-break">De Correspondent</a> and its English counterpart, <a href="https://thecorrespondent.com" className="no-break">The Correspondent</a>.
+				I'm a frontend developer, currently working at <a href="https://decorrespondent.nl" className="no-break">De Correspondent</a>. I enjoy building elegant and accessible things for the web.
 			</p>
 
 			<p>
-				I also like to make games, some of which I actually finish and release. You can find them on <a href="https://bakkerjoeri.itch.io/">itch.io</a>.
+				I also like to make games in my spare time, some of which I actually finish and release. You can find them on <a href="https://bakkerjoeri.itch.io/">itch.io</a>.
 			</p>
 
 			<p>Follow me on <a href="https://twitter.com/bakkerjoeri">twitter</a>, check out my code on <a href="https://github.com/bakkerjoeri/">GitHub</a>.</p>
