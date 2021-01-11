@@ -2,29 +2,7 @@
   "name": "joeri.me",
   "version": "0.0.0",
   "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean"
-  },
-  "dependencies": {
-    "@types/react-helmet": "^6.1.0",
-    "gatsby": "^2.24.83",
-    "gatsby-plugin-react-helmet": "^3.3.14",
-    "gatsby-plugin-sass": "^2.3.19",
-    "gatsby-plugin-typescript": "^2.4.22",
-    "gatsby-source-filesystem": "^2.3.35",
-    "gatsby-transformer-remark": "^2.8.45",
-    "node-sass": "^4.14.1",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
-    "react-helmet": "^6.1.0",
-    "source-map-support": "^0.5.19",
-    "ts-node": "^9.0.0",
-    "typescript": "^4.0.3"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/bakkerjoeri/joeri.me"
+    "develop": "npx @11ty/eleventy --serve",
+    "build": "npx @11ty/eleventy"
   }
 }
