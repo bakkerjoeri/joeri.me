@@ -1,0 +1,49 @@
+@import "./fonts/Charter/Charter.scss";
+@import "./fonts/Raleway/Raleway.scss";
+
+:root {
+	--color-accent-bright: #D90077;
+	--page-width: 640px;
+	--font-family-sans-serif: 'Raleway', sans-serif;
+	--font-family-serif: 'Charter', 'Georgia', serif;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-family: var(--font-family-serif);
+	font-size: 18px;
+	line-height: 1.45em;
+
+	@media (min-width: 520px) {
+		font-size: 3.45vw;
+	}
+
+	@media (min-width: 640px) {
+		font-size: 22px;
+	}
+}
+
+h1 {
+	margin-bottom: 1em;
+	font-family: var(--font-family-sans-serif);
+	font-size: 1.6em;
+	line-height: 1.2em;
+}
+
+p {
+	margin-bottom: 1.45em;
+	line-height: 1.45em;
+}
+
+a {
+	color: var(--color-accent-bright)
+}
+
+.no-break {
+	white-space: nowrap;
+}

@@ -2,7 +2,12 @@
   "name": "joeri.me",
   "version": "0.0.0",
   "scripts": {
-    "develop": "npx @11ty/eleventy --serve",
-    "build": "npx @11ty/eleventy"
+    "dev": "gulp watch & npx @11ty/eleventy --input=src --output=public --serve",
+    "build": "gulp build && npx @11ty/eleventy  --input=src --output=public"
+  },
+  "devDependencies": {
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.1.0"
   }
 }
