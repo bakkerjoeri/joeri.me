@@ -1,0 +1,19 @@
+{% layout layouts/Page/Page.liquid %}
+
+{% block title %}
+	Thoughts by Joeri 🔮
+{% endblock %}
+
+{% block main %}
+	<h1>Thoughts</h1>
+
+	<ul>
+		{% for thought in collections.thought %}
+			<li>
+				<a href="{{ thought.url }}" class="ThingPreview__link link-cover">
+					{{ thought.data.title }}
+				</a>
+			</li>
+		{% endfor %}
+	</ul>
+{% endblock %}
