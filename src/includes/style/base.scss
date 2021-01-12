@@ -35,9 +35,18 @@ h1 {
 	line-height: 1.2em;
 }
 
-p {
+h2 {
+	margin-bottom: 1em;
+	line-height: 1.2em;
+}
+
+p, ul:not([class]), ol:not([class]) {
 	margin-bottom: 1.45em;
 	line-height: 1.45em;
+}
+
+ul:not([class]), ol:not([class]) {
+	padding-left: 1.25em;
 }
 
 a {
@@ -46,4 +55,12 @@ a {
 
 .no-break {
 	white-space: nowrap;
+}
+
+.link-cover::after {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
 }

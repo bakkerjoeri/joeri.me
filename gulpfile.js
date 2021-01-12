@@ -19,11 +19,11 @@ function clean() {
 }
 
 function buildCss() {
-	return src('./src/style/main.scss')
+	return src('./src/includes/style/main.scss')
 		.pipe(sass()).on('error', sass.logError)
 		.pipe(dest('./public/style'))
 }
 
 function watchCss() {
-	return watch('./src/**/*.scss', buildCss);
+	return watch('./src/includes/**/*.scss', buildCss);
 }

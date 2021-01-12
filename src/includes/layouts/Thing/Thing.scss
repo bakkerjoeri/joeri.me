@@ -1,0 +1,30 @@
+.Thing__title,
+.Thing__summary {
+	margin-bottom: 0;
+}
+
+.Thing__links {
+	margin-bottom: 1.45em;
+}
+
+.Thing__summary {
+	font-style: italic;
+}
+
+.Ribbon {
+	display: flex;
+	list-style: none;
+}
+
+.Ribbon__item {
+	display: block;
+}
+
+.Ribbon__item + .Ribbon__item {
+	margin-left: 5px;
+
+	&::before {
+		display: inline;
+		content: '·';
+	}
+}

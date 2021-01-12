@@ -1,0 +1,27 @@
+{% layout layouts/Page/Page.liquid %}
+
+{% block title %}
+	{{ title }} · Joeri ✨
+{% endblock %}
+
+{% block main %}
+	<h1 class="Thing__title">
+		{{ title }}
+	</h1>
+
+	<p class="Thing__summary">
+		{{ summary }}
+	</p>
+
+	<ul class="Thing__links Ribbon">
+		{% for link in links %}
+			<li class="Ribbon__item">
+				<a href="{{ link.url }}">
+					{{ link.title }}
+				</a>
+			</li>
+		{% endfor %}
+	</ul>
+
+	{{ content | safe }}
+{% endblock %}

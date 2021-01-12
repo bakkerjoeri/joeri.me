@@ -1,5 +1,6 @@
 module.exports = {
 	dir: {
-		layouts: "layouts",
+		includes: "./../includes",
+		layouts: "./../includes/layouts"
 	},
 };

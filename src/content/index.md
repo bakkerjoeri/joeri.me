@@ -1,6 +1,6 @@
 ---
-layout: Page/Page.njk
-title: ✨ Joeri
+title: Joeri ✨
+layout: Page/Page.liquid
 ---
 
 # 👋🏼 Hi, I'm Joeri
