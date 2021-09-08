@@ -1,0 +1,15 @@
+<ul class="ThingList">
+	{% for thing in things %}
+		<li class="ThingItem">
+			<div class="ThingItem__header">
+				<h3 class="ThingItem__title">
+					<a href="{{ thing.url }}" class="link-cover">
+						{{ thing.data.title }}
+					</a>
+				</h3> &middot; <span class="ThingItem__type">{{ thing.data.type }}</span>
+			</div>
+
+			<span class="ThingItem__description">{{ thing.data.summary }}</span>
+		</li>
+	{% endfor %}
+</ul>

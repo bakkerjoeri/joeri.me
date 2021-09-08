@@ -1,5 +1,6 @@
 ---
 layout: Thing/Thing
+type: app
 tags:
   - thing
   - app

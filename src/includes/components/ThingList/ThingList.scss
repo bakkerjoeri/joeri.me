@@ -1,0 +1,26 @@
+.ThingList {
+	list-style: none;
+}
+
+.ThingItem + .ThingItem {
+	margin-top: 1.45em;
+}
+
+.ThingItem__title {
+	margin-top: 0;
+	margin-right: 5px;
+	font-size: inherit;
+	font-weight: normal;
+}
+
+.ThingItem__header {
+	display: flex;
+}
+
+.ThingItem__type {
+	color: #666;
+}
+
+.ThingItem__title + .ThingItem__type {
+	margin-left: 5px;
+}

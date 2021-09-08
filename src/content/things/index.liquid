@@ -7,12 +7,5 @@
 {% block main %}
 	<h1>Things I made</h1>
 
-	<ul>
-		{% for thing in collections.thing %}
-			<li>
-				<a href="{{ thing.url }}" class="ThingPreview__link link-cover">{{ thing.data.title }}</a>
-				{{ thing.data.summary }}
-			</li>
-		{% endfor %}
-	</ul>
+	{% include components/ThingList/ThingList, things: collections.thing %}
 {% endblock %}

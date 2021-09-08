@@ -2,6 +2,7 @@
 layout: Thing/Thing
 title: Cantrip
 summary: Roguelite card battles
+type: game
 tags:
   - thing
   - game

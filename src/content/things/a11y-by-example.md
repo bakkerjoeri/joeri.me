@@ -1,9 +1,10 @@
 ---
+title: a11y by example
 layout: Thing/Thing
+type: website
 tags:
   - thing
   - website
-title: a11y by example
 summary: A set of examples to explain some basic principles of web accessibility.
 links: 
   - title: a11y.joeri.me

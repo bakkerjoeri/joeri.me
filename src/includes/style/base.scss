@@ -36,13 +36,19 @@ h1 {
 }
 
 h2 {
+	margin-top: 2em;
 	margin-bottom: 1em;
+	font-family: var(--font-family-sans-serif);
 	line-height: 1.2em;
 }
 
 p, ul:not([class]), ol:not([class]) {
 	margin-bottom: 1.45em;
 	line-height: 1.45em;
+	
+	a {
+		white-space: nowrap;
+	}
 }
 
 ul:not([class]), ol:not([class]) {

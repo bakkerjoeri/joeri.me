@@ -1,5 +1,6 @@
 ---
 layout: Thing/Thing
+type: library
 title: heks
 tags: 
   - thing

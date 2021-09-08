@@ -1,0 +1,28 @@
+{% layout layouts/Page/Page.liquid %}
+
+{% block title %}
+	Joeri ✨
+{% endblock %}
+
+{% block main %}
+	<h1>👋🏻 Hi, I'm Joeri</h1>
+
+	<p>
+		I'm a frontend developer, currently working at <a href="https://decorrespondent.nl">De Correspondent</a>
+		I enjoy building elegant and accessible things for the web.
+	</p>
+
+	<p>
+		I also like to make games in my spare time, some of which I actually finish and release.
+		You can find them on <a href="https://bakkerjoeri.itch.io/">itch.io</a>.
+	</p>
+
+	<p>
+		Follow me on <a href="https://twitter.com/bakkerjoeri">twitter</a>, check out my code on <a href="https://github.com/bakkerjoeri/">GitHub</a>.
+		Wanna work together? Have a look at my <a href="https://cv.joeri.me/">resume</a> or some of the <a href="things">things</a> I made.
+	</p>
+
+	<h2>Things I made</h2>
+
+	{% include components/ThingList/ThingList, things: collections.thing %}
+{% endblock %}
