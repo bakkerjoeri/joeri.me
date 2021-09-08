@@ -1,6 +1,6 @@
 const { task, src, dest, watch, series, parallel } = require('gulp');
 const del = require('del');
-const sass = require('gulp-sass');
+const sass = require('gulp-sass')(require('sass'));
 
 task('build', series(
 	clean,
